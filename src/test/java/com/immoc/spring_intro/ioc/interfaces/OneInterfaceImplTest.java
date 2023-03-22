@@ -9,7 +9,8 @@ import static org.junit.Assert.*;
 public class OneInterfaceImplTest extends UnitTestBase {
 
     public OneInterfaceImplTest() {
-        super("classpath*:spring-ioc.xml");
+        //classpath指的是
+        super("classpath*:spring/spring-ioc.xml");
     }
 
     @Test
