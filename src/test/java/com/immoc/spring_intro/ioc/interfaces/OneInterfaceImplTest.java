@@ -10,7 +10,7 @@ public class OneInterfaceImplTest extends UnitTestBase {
 
     public OneInterfaceImplTest() {
         //classpath指的是
-        super("classpath*:spring/spring-ioc.xml");
+        super("classpath*:spring_intro/spring-ioc.xml");
     }
 
     @Test

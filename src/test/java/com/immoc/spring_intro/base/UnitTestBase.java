@@ -24,8 +24,9 @@ public class UnitTestBase {
 
     @Before
     public void before() {
+        //test执行之前，先判断springXmlpath是否为空，path根据构造器传入
         if(StringUtils.isNullOrEmpty(springXmlpath)){
-            springXmlpath = "classpath*:spring-*.xml";
+            springXmlpath = "classpath*:spring_intro/spring-*.xml";
         }
         try {
             //下面是初始化Bean容器的方法 之一
